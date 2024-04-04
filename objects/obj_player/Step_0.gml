@@ -44,9 +44,9 @@ if(array_length(_collideArr) != 0 and place_meeting(x,y+vspd,obj_block)) vspd = 
 //Pick up objects
 if(keyboard_check_pressed(ord("X")) && emptyHands && (place_meeting(x,y,obj_pickup))){
 	emptyHands = false;
-	_pickup = instance_place(x,y,obj_pickup)
+	pickup = instance_place(x,y,obj_pickup)
 } else if (keyboard_check_pressed(ord("X")) and !emptyHands) emptyHands = true;
-if (!emptyHands and (_pickup != undefined)) with(_pickup){
+if (!emptyHands and (pickup != undefined)) with(pickup){
 	x = other.x;
 	y = other.y;
 }
