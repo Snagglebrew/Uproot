@@ -1,4 +1,3 @@
-/// @description
 scr_movement();
 
 //Time travel
@@ -25,6 +24,7 @@ if(keyboard_check_pressed(ord("Z")) && !future){
 	room_goto(_rm)
 }
 
+//Movement
 hspd *= moveSpeed;
 var grounded = place_meeting(x,y+1,obj_block);
 
