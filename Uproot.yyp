@@ -46,6 +46,8 @@
     {"id":{"name":"devRoom","path":"rooms/devRoom/devRoom.yy",},},
     {"id":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"id":{"name":"rm_introFuture","path":"rooms/rm_introFuture/rm_introFuture.yy",},},
+    {"id":{"name":"rm_lv1_past","path":"rooms/rm_lv1_past/rm_lv1_past.yy",},},
+    {"id":{"name":"rm_lv1_future","path":"rooms/rm_lv1_future/rm_lv1_future.yy",},},
     {"id":{"name":"scr_changeHealth","path":"scripts/scr_changeHealth/scr_changeHealth.yy",},},
     {"id":{"name":"scr_movement","path":"scripts/scr_movement/scr_movement.yy",},},
     {"id":{"name":"shdr_colorOverlay","path":"shaders/shdr_colorOverlay/shdr_colorOverlay.yy",},},
@@ -70,6 +72,8 @@
     {"roomId":{"name":"devRoom","path":"rooms/devRoom/devRoom.yy",},},
     {"roomId":{"name":"rm_introFuture","path":"rooms/rm_introFuture/rm_introFuture.yy",},},
     {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
+    {"roomId":{"name":"rm_lv1_past","path":"rooms/rm_lv1_past/rm_lv1_past.yy",},},
+    {"roomId":{"name":"rm_lv1_future","path":"rooms/rm_lv1_future/rm_lv1_future.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
