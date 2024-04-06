@@ -1,4 +1,5 @@
-/// @description
+gameFPS = game_get_speed(gamespeed_fps);
+
 hp = maxhp;
 vspd = 0;
 immune = false;
@@ -10,6 +11,13 @@ prevX = 0
 prevY = 0
 prevHspd = 0
 prevVspd = 0
+hspd = 0;
+
+// wall sliding/jumping variables
+slidingDownWall = false;
+jumpingOffWall = false;
+wallSlideLerpPercent = 0;
+wallDir = 0;
 
 //Shader variables
 _uniColor = shader_get_uniform(shdr_colorOverlay, "u_colour");

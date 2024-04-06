@@ -4,5 +4,5 @@ function scr_movement(){
 	_up = keyboard_check(vk_up);
 	var _down = keyboard_check(vk_down);
 	
-	hspd = _right - _left;
+	hdir = _right - _left;
 }
