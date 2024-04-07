@@ -1,2 +1,4 @@
 /// @description
-room_goto_next()
+if(goal){
+	room_goto_next()
+}
