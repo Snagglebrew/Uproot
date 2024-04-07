@@ -79,7 +79,10 @@ if(grounded and !place_meeting(x, y + 4, obj_block) and vspd > 0) {
 if(keyboard_check_pressed(ord("X")) && emptyHands && (place_meeting(x,y,obj_pickup))){
 	emptyHands = false;
 	pickup = instance_place(x,y,obj_pickup)
-} else if (keyboard_check_pressed(ord("X")) and !emptyHands) emptyHands = true;
+} else if (keyboard_check_pressed(ord("X")) and !emptyHands){
+	emptyHands = true;
+	pickup = noone;
+}
 if (!emptyHands and (pickup != undefined)) with(pickup){
 	x = other.x;
 	y = other.y;
