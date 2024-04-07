@@ -79,13 +79,13 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_introFuture","path":"rooms/rm_introFuture/rm_introFuture.yy",},},
-    {"roomId":{"name":"rm_lv1Future","path":"rooms/rm_lv1Future/rm_lv1Future.yy",},},
-    {"roomId":{"name":"devRoom","path":"rooms/devRoom/devRoom.yy",},},
     {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"roomId":{"name":"rm_lv1","path":"rooms/rm_lv1/rm_lv1.yy",},},
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
+    {"roomId":{"name":"devRoom","path":"rooms/devRoom/devRoom.yy",},},
+    {"roomId":{"name":"rm_lv1Future","path":"rooms/rm_lv1Future/rm_lv1Future.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
