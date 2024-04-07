@@ -5,6 +5,6 @@ if(other == obj_fire){
 		fire = true;
 	}
 }
-if(other = obj_sap){
+if(other == obj_sap){
 	sap = true;
 }
