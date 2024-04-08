@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_deadwood",
+  "%Name":"obj_floor",
   "eventList":[],
   "managed":true,
-  "name":"obj_deadwood",
+  "name":"obj_floor",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_deadwood",
-    "path":"sprites/spr_deadwood/spr_deadwood.yy",
+    "name":"spr_block",
+    "path":"sprites/spr_block/spr_block.yy",
   },
   "spriteMaskId":null,
   "visible":true,
