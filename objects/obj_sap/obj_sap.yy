@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_sap",
+    "path":"sprites/spr_sap/spr_sap.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

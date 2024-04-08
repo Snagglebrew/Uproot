@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(other == obj_stick){
-	if(other.fire) {
-		instance_destroy(self)
-	}
+if(sap = true){
+	fire = true;
+	image_index = 2;
+	instance_destroy(other);
 }
