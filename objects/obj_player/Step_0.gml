@@ -1,7 +1,7 @@
 scr_movement();
 
 //Time travel
-if(keyboard_check_pressed(ord("Z")) && future){
+if(keyboard_check_pressed(ord("Z")) && future && !place_meeting(x,y,obj_teleblock)){
 	travel = true
 	prevX = x
 	prevY = y
@@ -12,7 +12,7 @@ if(keyboard_check_pressed(ord("Z")) && future){
 	_rm = asset_get_index(_rm)
 	room_goto(_rm)
 }
-if(keyboard_check_pressed(ord("Z")) && !future){
+if(keyboard_check_pressed(ord("Z")) && !future && !place_meeting(x,y,obj_teleblock)){
 	travel = true
 	prevX = x
 	prevY = y

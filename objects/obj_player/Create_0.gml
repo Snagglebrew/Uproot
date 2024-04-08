@@ -7,6 +7,7 @@ emptyHands = true;
 pickup = noone;
 future = true
 travel = false
+blocked = false
 prevX = 0
 prevY = 0
 prevHspd = 0
