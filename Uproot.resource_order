@@ -25,6 +25,7 @@
     {"name":"obj_deadwood","order":14,"path":"objects/obj_deadwood/obj_deadwood.yy",},
     {"name":"obj_exit","order":3,"path":"objects/obj_exit/obj_exit.yy",},
     {"name":"obj_fire","order":11,"path":"objects/obj_fire/obj_fire.yy",},
+    {"name":"obj_gameover","order":16,"path":"objects/obj_gameover/obj_gameover.yy",},
     {"name":"obj_goal","order":10,"path":"objects/obj_goal/obj_goal.yy",},
     {"name":"obj_kill","order":5,"path":"objects/obj_kill/obj_kill.yy",},
     {"name":"obj_pickup","order":8,"path":"objects/obj_pickup/obj_pickup.yy",},
@@ -56,6 +57,8 @@
     {"name":"spr_sap","order":14,"path":"sprites/spr_sap/spr_sap.yy",},
     {"name":"spr_spikes","order":6,"path":"sprites/spr_spikes/spr_spikes.yy",},
     {"name":"spr_stick","order":12,"path":"sprites/spr_stick/spr_stick.yy",},
+    {"name":"spr_win","order":17,"path":"sprites/spr_win/spr_win.yy",},
+    {"name":"spr_gameover","order":18,"path":"sprites/spr_gameover/spr_gameover.yy",},
     {"name":"tls_past","order":1,"path":"tilesets/tls_past/tls_past.yy",},
   ],
 }
