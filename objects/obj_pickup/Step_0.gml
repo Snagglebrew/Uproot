@@ -9,7 +9,7 @@ if instance_exists(obj_player){
 var horizontalCollideArray = move_and_collide(hspd, 0, obj_floor);
 var verticalCollideArray = move_and_collide(0, vspd, obj_floor);
 if(pickup){
-	temphspd = obj_player.hspd;
+	temphspd = obj_player.hspd * 2;
 } else if(temphspd != 0 and !pickup){
 	hspd = temphspd;
 	temphspd = 0;
