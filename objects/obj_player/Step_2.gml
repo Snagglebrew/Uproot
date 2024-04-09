@@ -1,4 +1,4 @@
-var grounded = place_meeting(0, y + 1, obj_block);
+var grounded = place_meeting(x, y + 1, obj_block);
 
 // horizontal movement
 // if we hit a wall and arent grounded, start sliding down the wall
@@ -23,4 +23,10 @@ if(array_length(verticalCollideArray) != 0 and place_meeting(x,y+vspd,obj_block)
 	vspd = 0;
 	slidingDownWall = false;
 	wallSlideLerpPercent = 0;
+}
+
+if (pickup)
+{
+	pickup.x = x;
+	pickup.y = y;
 }

@@ -62,6 +62,13 @@ if (_up && slidingDownWall)
 	alarm[1] = gameFPS * disableWallJumpAccelSeconds;
 }
 
+// stop sliding if player moves away from wall
+if (slidingDownWall && !place_meeting(x - wallDir, y, obj_block))
+{
+	slidingDownWall = false;
+	wallSlideLerpPercent = 0;
+}
+
 // move the player down the wall gradually
 if (slidingDownWall && wallSlideLerpPercent <= 1)
 {
