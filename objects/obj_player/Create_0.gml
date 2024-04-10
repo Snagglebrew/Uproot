@@ -15,6 +15,7 @@ SpawnY = 0
 prevHspd = 0
 prevVspd = 0
 hspd = 0;
+moveAdd = 0;
 
 // wall sliding/jumping variables
 slidingDownWall = false;

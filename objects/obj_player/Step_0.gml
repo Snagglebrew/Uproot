@@ -31,7 +31,7 @@ if (grounded)
 
 // if we arent jumping off a wall, move normally
 if (!jumpingOffWall)
-	hspd = moveSpeed * hdir;
+	hspd = (moveSpeed * hdir) + moveAdd;
 else
 {
 	// else have some air "drag" (not really drag per se)
