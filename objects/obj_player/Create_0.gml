@@ -1,3 +1,7 @@
+image_xscale = 0.1
+image_yscale = 0.1
+_tempDebug = 0;
+
 gameFPS = game_get_speed(gamespeed_fps);
 
 hp = maxhp;

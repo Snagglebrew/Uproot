@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_invisBlock",
+    "path":"sprites/spr_invisBlock/spr_invisBlock.yy",
+  },
   "spriteMaskId":null,
   "visible":false,
 }

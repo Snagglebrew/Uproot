@@ -4,6 +4,13 @@ var grounded = place_meeting(x, y + 1, obj_block);
 // if we hit a wall and arent grounded, start sliding down the wall
 if(hdir != 0) { 
 	sprite_index = spr_playerWalk
+	if(hdir < 0 && image_xscale > 0){
+		image_xscale *= -1;
+	} else if (hdir > 0 && image_xscale < 0){
+		image_xscale *= -1;
+	}
+} else {
+	sprite_index = spr_playerIdle
 }
 var horizontalCollideArray = move_and_collide(hspd, 0, obj_block);
 if (array_length(horizontalCollideArray) != 0)
@@ -30,6 +37,6 @@ if(array_length(verticalCollideArray) != 0 and place_meeting(x,y+vspd,obj_block)
 
 if (pickup)
 {
-	pickup.x = x;
+	pickup.x = x + (sign(image_xscale) * 25);
 	pickup.y = y;
 }

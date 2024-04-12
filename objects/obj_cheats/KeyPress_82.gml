@@ -25,8 +25,8 @@ if string_ends_with(room_get_name(deathroom),"Future") {
 	var _rm = room_get_name(deathroom);
 	_rm = _rm + "Future"
 	_rm = asset_get_index(_rm);
-	room_goto(_rm)
-	
+	if room_exists(_rm)
+		room_goto(_rm)
 }
 obj_player.x = SpawnX
 obj_player.y = SpawnY

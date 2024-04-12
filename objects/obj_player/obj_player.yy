@@ -59,6 +59,9 @@
     "name":"spr_playerIdle",
     "path":"sprites/spr_playerIdle/spr_playerIdle.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_playerIdle",
+    "path":"sprites/spr_playerIdle/spr_playerIdle.yy",
+  },
   "visible":true,
 }
