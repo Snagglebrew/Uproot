@@ -47,9 +47,9 @@
     {"name":"rm_lv2","order":8,"path":"rooms/rm_lv2/rm_lv2.yy",},
     {"name":"rm_lv2Future","order":9,"path":"rooms/rm_lv2Future/rm_lv2Future.yy",},
     {"name":"rm_lv3","order":10,"path":"rooms/rm_lv3/rm_lv3.yy",},
+    {"name":"rm_lv3Future","order":11,"path":"rooms/rm_lv3Future/rm_lv3Future.yy",},
     {"name":"rm_title","order":5,"path":"rooms/rm_title/rm_title.yy",},
     {"name":"rm_win","order":6,"path":"rooms/rm_win/rm_win.yy",},
-    {"name":"rm_lv3Future","order":11,"path":"rooms/rm_lv3Future/rm_lv3Future.yy",},
     {"name":"scr_movement","order":1,"path":"scripts/scr_movement/scr_movement.yy",},
     {"name":"spr_background","order":4,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"spr_bird","order":8,"path":"sprites/spr_bird/spr_bird.yy",},
@@ -73,6 +73,7 @@
     {"name":"spr_stick","order":12,"path":"sprites/spr_stick/spr_stick.yy",},
     {"name":"spr_textSign","order":19,"path":"sprites/spr_textSign/spr_textSign.yy",},
     {"name":"spr_win","order":17,"path":"sprites/spr_win/spr_win.yy",},
+    {"name":"spr_dirt","order":24,"path":"sprites/spr_dirt/spr_dirt.yy",},
     {"name":"tls_past","order":1,"path":"tilesets/tls_past/tls_past.yy",},
   ],
 }
