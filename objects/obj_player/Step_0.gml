@@ -11,7 +11,6 @@ if(keyboard_check_pressed(ord("Z")) && future && !place_meeting(x,y,obj_telebloc
 	_rm = string_delete(_rm, (string_length(_rm) - 5), 6)
 	_rm = asset_get_index(_rm)
 	room_goto(_rm)
-	show_debug_message(string(x) + " , " + string(y));
 }
 if(keyboard_check_pressed(ord("Z")) && !future && !place_meeting(x,y,obj_teleblock)){
 	/**travel = true
@@ -23,7 +22,6 @@ if(keyboard_check_pressed(ord("Z")) && !future && !place_meeting(x,y,obj_teleblo
 	_rm = _rm + "Future"
 	_rm = asset_get_index(_rm)
 	room_goto(_rm)
-	show_debug_message(string(x) + " , " + string(y));
 }
 
 // if we are grounded, we arent jumping off a wall (duh)
@@ -47,8 +45,6 @@ vspd += grav;
 // when we jump
 if (_up && grounded) { 
 	vspd = -jumpHeight;
-	_tempDebug += 1;
-	show_debug_message(("Jumping" + string(_tempDebug)));
 }
 // if we wall jump
 if (_up && slidingDownWall)
