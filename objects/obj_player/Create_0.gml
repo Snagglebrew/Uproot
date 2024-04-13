@@ -1,6 +1,8 @@
 image_xscale = 0.1
 image_yscale = 0.1
 _tempDebug = 0;
+camera = camera_create_view(x,y,960,540,0,obj_player,-1,-1,400,400);
+view_set_camera(0, camera);
 
 gameFPS = game_get_speed(gamespeed_fps);
 
