@@ -7,4 +7,7 @@ if(place_meeting(x,y,obj_player)){
 	draw_set_color(c_white);
 	
 	draw_text(x,y - textSignOffset, textSignText);
+	
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_top);
 }

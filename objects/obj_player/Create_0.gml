@@ -4,8 +4,6 @@ _tempDebug = 0;
 camera = camera_create_view(x,y,960,540,0,obj_player,-1,-1,400,400);
 view_set_camera(0, camera);
 
-gameFPS = game_get_speed(gamespeed_fps);
-
 hp = maxhp;
 vspd = 0;
 immune = false;

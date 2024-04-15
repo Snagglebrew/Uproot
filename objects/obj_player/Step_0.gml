@@ -59,7 +59,7 @@ if (_up && slidingDownWall)
 	
 	// enable air drag
 	jumpingOffWall = true;
-	alarm[1] = gameFPS * disableWallJumpAccelSeconds;
+	alarm[1] = global.gameFPS * disableWallJumpAccelSeconds;
 }
 
 // stop sliding if player moves away from wall
@@ -72,7 +72,7 @@ if (slidingDownWall && !place_meeting(x - wallDir, y, obj_block))
 // move the player down the wall gradually
 if (slidingDownWall && wallSlideLerpPercent <= 1)
 {
-	wallSlideLerpPercent += 1 / (gameFPS * wallSlideSecondsToLerp);
+	wallSlideLerpPercent += 1 / (global.gameFPS * wallSlideSecondsToLerp);
 	
 	vspd = lerp(0, wallSlideSpeed, wallSlideLerpPercent);
 }
@@ -88,6 +88,8 @@ if(keyboard_check_pressed(ord("X")) && emptyHands && (place_meeting(x,y,obj_pick
 	pickup = instance_place(x,y,obj_pickup)
 } else if (keyboard_check_pressed(ord("X")) and !emptyHands){
 	emptyHands = true;
+	
+	pickup.thrown = true;
 	pickup = noone;
 }
 if(keyboard_check_pressed(ord("X")) && place_meeting(x,y,obj_goal)){
