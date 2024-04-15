@@ -2,22 +2,12 @@ scr_movement();
 
 //Time travel
 if(keyboard_check_pressed(ord("Z")) && future && !place_meeting(x,y,obj_teleblock)){
-	/**travel = true
-	prevX = x
-	prevY = y
-	prevHspd = hspd
-	prevVspd = vspd**/
 	var _rm = room_get_name(room)
 	_rm = string_delete(_rm, (string_length(_rm) - 5), 6)
 	_rm = asset_get_index(_rm)
 	room_goto(_rm)
 }
 if(keyboard_check_pressed(ord("Z")) && !future && !place_meeting(x,y,obj_teleblock)){
-	/**travel = true
-	prevX = x
-	prevY = y
-	prevHspd = hspd
-	prevVspd = vspd**/
 	var _rm = room_get_name(room)
 	_rm = _rm + "Future"
 	_rm = asset_get_index(_rm)

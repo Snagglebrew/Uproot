@@ -1,4 +1,4 @@
-obj_cheats.SpawnX = 940;
+obj_cheats.SpawnX = 840;
 obj_cheats.SpawnY = 870;
 
 obj_player.x = obj_cheats.SpawnX;
