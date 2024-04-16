@@ -3,7 +3,8 @@ var grounded = place_meeting(x, y + 1, obj_block);
 // horizontal movement
 // if we hit a wall and arent grounded, start sliding down the wall
 if(hdir != 0) { 
-	sprite_index = spr_playerWalk
+	if(sprite_index != spr_playerWalk)
+		sprite_index = spr_playerStartWalk
 	if(hdir < 0 && image_xscale > 0){
 		image_xscale *= -1;
 	} else if (hdir > 0 && image_xscale < 0){
