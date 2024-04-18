@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"sdr_unrenderRain",
+  "name":"sdr_unrenderRain",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}
