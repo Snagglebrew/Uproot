@@ -8,25 +8,16 @@ if (talking)
 	draw_set_color(mainBoxColor);
 	draw_rectangle(outlineThickness, outlineThickness, viewportWidth - outlineThickness, dialogueBoxPixelThickness - outlineThickness, false);
 
-	// draw the portrait
-	// TODO: need a sprite for this
-	if (currentDialogue[currentDialogueIndex].talker == "diana")
-		draw_set_color(c_blue);
-	else
-		draw_set_color(c_red);
-
-	var tempSpriteWidth = 120, 
-		tempSpriteHeight = 120;
 	var initialX = outlineThickness + portraitOffsetX,
 		initialY = outlineThickness + portraitOffsetY;
 
-	draw_rectangle(
-		initialX, 
-		initialY,
-		initialX + tempSpriteWidth, 
-		initialY + tempSpriteHeight,
-		false
-	);
+	// draw the portrait
+	if (currentDialogue[currentDialogueIndex].talker == "diana")
+		draw_sprite(spr_portraitDownscaled, -1, initialX, initialY);
+	else
+		draw_sprite(spr_statuePortrait, -1, initialX, initialY);
+
+	var spriteWidth = sprite_get_width(spr_portraitDownscaled);
 
 	// draw the current text for the dialogue
 	var initialFont = draw_get_font();
@@ -35,7 +26,7 @@ if (talking)
 	//draw_set_font(example font);
 
 	// set the initialX to the point of the text
-	initialX += portraitOffsetX + tempSpriteWidth;
+	initialX += portraitOffsetX + spriteWidth;
 
 	// split the string into an array of words
 	var splitString = string_split(currentDialogue[currentDialogueIndex].text, " ");
