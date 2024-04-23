@@ -43,6 +43,7 @@
     {"name":"obj_stick","order":12,"path":"objects/obj_stick/obj_stick.yy",},
     {"name":"obj_teleblock","order":17,"path":"objects/obj_teleblock/obj_teleblock.yy",},
     {"name":"obj_textSign","order":18,"path":"objects/obj_textSign/obj_textSign.yy",},
+    {"name":"obj_tree","order":28,"path":"objects/obj_tree/obj_tree.yy",},
     {"name":"obj_ui","order":4,"path":"objects/obj_ui/obj_ui.yy",},
     {"name":"obj_vertWall","order":26,"path":"objects/obj_vertWall/obj_vertWall.yy",},
     {"name":"path_movingKill","order":1,"path":"paths/path_movingKill/path_movingKill.yy",},

@@ -61,6 +61,7 @@
     {"id":{"name":"obj_stick","path":"objects/obj_stick/obj_stick.yy",},},
     {"id":{"name":"obj_teleblock","path":"objects/obj_teleblock/obj_teleblock.yy",},},
     {"id":{"name":"obj_textSign","path":"objects/obj_textSign/obj_textSign.yy",},},
+    {"id":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},},
     {"id":{"name":"obj_ui","path":"objects/obj_ui/obj_ui.yy",},},
     {"id":{"name":"obj_vertWall","path":"objects/obj_vertWall/obj_vertWall.yy",},},
     {"id":{"name":"obj_win","path":"objects/obj_win/obj_win.yy",},},

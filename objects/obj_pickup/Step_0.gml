@@ -5,6 +5,11 @@ if (instance_exists(obj_player))
 	{
 		pickup = true;
 		vspd = 0;
+		if(image_xscale > 0 && obj_player.image_xscale < 0){
+			image_xscale *= -1;
+		} else if (image_xscale < 0 && obj_player.image_xscale > 0){
+			image_xscale *= -1;
+		}
 	}
 	else 
 		pickup = false;
