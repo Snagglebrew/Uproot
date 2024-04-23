@@ -27,3 +27,16 @@ if (place_meeting(x, y, obj_pickup) && emptyHands)
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);
 }
+// if there is a dialogue box
+else if (place_meeting(x, y, obj_interactDialogue) && !obj_dialogue.talking)
+{
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_middle);
+
+	draw_set_color(c_white);
+
+	draw_text(x, y - pickupTextOffset, interactText);
+
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_top);
+}

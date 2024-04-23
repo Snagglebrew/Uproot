@@ -4,5 +4,8 @@ function scr_movement(){
 	_up = keyboard_check_pressed(vk_up);
 	var _down = keyboard_check(vk_down);
 	
-	hdir = _right - _left;
+	if (!obj_dialogue.talking)
+		hdir = _right - _left;
+	else
+		hdir = 0;
 }

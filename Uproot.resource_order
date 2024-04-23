@@ -44,6 +44,7 @@
     {"name":"obj_textSign","order":18,"path":"objects/obj_textSign/obj_textSign.yy",},
     {"name":"obj_ui","order":4,"path":"objects/obj_ui/obj_ui.yy",},
     {"name":"obj_vertWall","order":26,"path":"objects/obj_vertWall/obj_vertWall.yy",},
+    {"name":"obj_interactDialogue","order":27,"path":"objects/obj_interactDialogue/obj_interactDialogue.yy",},
     {"name":"path_movingKill","order":1,"path":"paths/path_movingKill/path_movingKill.yy",},
     {"name":"rm_gameover","order":7,"path":"rooms/rm_gameover/rm_gameover.yy",},
     {"name":"rm_intro","order":1,"path":"rooms/rm_intro/rm_intro.yy",},
