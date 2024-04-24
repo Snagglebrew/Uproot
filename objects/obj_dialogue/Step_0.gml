@@ -1,4 +1,4 @@
-if (keyboard_check_pressed(ord("N")))
+if (keyboard_check_pressed(ord("X")))
 {
 	// if we are talking
 	if (talking)

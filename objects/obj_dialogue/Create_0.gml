@@ -19,12 +19,23 @@ var testDialogue = [
 		talker: "gaia"
 	}
 ];
+var deadWood = [
+	{
+		text: "Oh no...this poor trees life has reached it's end",
+		talker: "diana"
+	},
+	{
+		text: "If only I had a way to set it's spirit free.",
+		talker: "diana"
+	}
+];
 
 // create the dialogue options map
 dialogueOptions = ds_map_create();
 
 /// ADD YOUR DIALOGUE USING THIS FUNCTION
 ds_map_set(dialogueOptions, "testDialogue", testDialogue);
+ds_map_set(dialogueOptions, "deadWood", deadWood);
 
 // all dialogue variables
 currentDialogue = [];
