@@ -11,7 +11,12 @@ function unrenderRainSetUniforms()
 	// add all blocking rain objects to the array
 	with (obj_blockRain)
 	{
-		objects[objectIndex] = id;
+		var i = 4 * objectIndex;
+		
+		objects[i] = bbox_left;
+		objects[i + 1] = bbox_top;
+		objects[i + 2] = bbox_bottom;
+		objects[i + 3] = bbox_right
 		
 		objectIndex++;
 	}
@@ -19,28 +24,19 @@ function unrenderRainSetUniforms()
 	// add all solid objects to the array
 	with (obj_block)
 	{
-		objects[objectIndex] = id;
+		var i = 4 * objectIndex;
+		
+		objects[i] = bbox_left;
+		objects[i + 1] = bbox_top;
+		objects[i + 2] = bbox_bottom;
+		objects[i + 3] = bbox_right
 		
 		objectIndex++;
 	}
 	
-	// declaring the array used for each objects bounding boxes
-	var objectBoundingBoxes = [];
-	
-	for (var i = 0; i < 4 * objectIndex; i += 4)
-	{
-		// getting the object
-		var obj = objects[i / 4];
-		
-		// setting each objects bounding boxes
-		// to set vectors in uniforms, its [x0, y0, z0, w0, x1, y1, z1, w1] etc.
-		objectBoundingBoxes[i] = obj.bbox_left;
-		objectBoundingBoxes[i + 1] = obj.bbox_top;
-		objectBoundingBoxes[i + 2] = obj.bbox_bottom;
-		objectBoundingBoxes[i + 3] = obj.bbox_right;
-	}
-	
 	// sending the uniforms to the shader
-	shader_set_uniform_f_array(arrayHandle, objectBoundingBoxes);
+	// to send an array of vec4's to a uniform, u have to use a float array 
+	// where every 4 floats is x, y, z, and w respectively
+	shader_set_uniform_f_array(arrayHandle, objects);
 	shader_set_uniform_i(numObjectsHandle, objectIndex);
 }

@@ -6,9 +6,9 @@ if(room != rm_gameover && !swapRoom){
 
 var _layers = layer_get_all()
 for(var i = 0; i < array_length(_layers); i++){
-	//if(layer_get_name(_layers[i]) != "Instances"){
+	if(layer_get_name(_layers[i]) != "Rain"){
 		layer_shader(_layers[i],shdr_colorOverlay);
-	//}
+	}
 }
 if(string_ends_with(room_get_name(room), "Future")){
 	_mix = 0.25;
