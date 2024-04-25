@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bird",
+  "%Name":"obj_birdTrigger",
   "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bird",
+  "name":"obj_birdTrigger",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_baseEnemy",
-    "path":"objects/obj_baseEnemy/obj_baseEnemy.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bird",
-    "path":"sprites/spr_bird/spr_bird.yy",
+    "name":"spr_birdTrigger",
+    "path":"sprites/spr_birdTrigger/spr_birdTrigger.yy",
   },
   "spriteMaskId":null,
   "visible":true,
