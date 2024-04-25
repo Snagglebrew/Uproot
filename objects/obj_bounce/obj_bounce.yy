@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_bounce",
-    "path":"sprites/spr_bounce/spr_bounce.yy",
+    "name":"spr_bounceShroom",
+    "path":"sprites/spr_bounceShroom/spr_bounceShroom.yy",
   },
   "spriteMaskId":null,
   "visible":true,
