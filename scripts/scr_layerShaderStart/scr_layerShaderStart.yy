@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_layerShaderStart",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_layerShaderStart",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
