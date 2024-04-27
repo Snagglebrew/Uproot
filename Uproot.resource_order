@@ -50,6 +50,7 @@
     {"name":"obj_tree","order":28,"path":"objects/obj_tree/obj_tree.yy",},
     {"name":"obj_ui","order":4,"path":"objects/obj_ui/obj_ui.yy",},
     {"name":"obj_vertWall","order":26,"path":"objects/obj_vertWall/obj_vertWall.yy",},
+    {"name":"obj_branch_dark","order":32,"path":"objects/obj_branch_dark/obj_branch_dark.yy",},
     {"name":"path_bird","order":2,"path":"paths/path_bird/path_bird.yy",},
     {"name":"path_movingKill","order":1,"path":"paths/path_movingKill/path_movingKill.yy",},
     {"name":"rm_gameover","order":7,"path":"rooms/rm_gameover/rm_gameover.yy",},

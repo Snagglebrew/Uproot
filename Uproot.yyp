@@ -69,6 +69,7 @@
     {"id":{"name":"obj_ui","path":"objects/obj_ui/obj_ui.yy",},},
     {"id":{"name":"obj_vertWall","path":"objects/obj_vertWall/obj_vertWall.yy",},},
     {"id":{"name":"obj_win","path":"objects/obj_win/obj_win.yy",},},
+    {"id":{"name":"obj_branch_dark","path":"objects/obj_branch_dark/obj_branch_dark.yy",},},
     {"id":{"name":"ps_rain","path":"particles/ps_rain/ps_rain.yy",},},
     {"id":{"name":"path_bird","path":"paths/path_bird/path_bird.yy",},},
     {"id":{"name":"path_floatPlatform","path":"paths/path_floatPlatform/path_floatPlatform.yy",},},
