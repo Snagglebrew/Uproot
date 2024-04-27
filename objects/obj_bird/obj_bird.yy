@@ -30,13 +30,14 @@
   "properties":[
     {"$GMObjectProperty":"","%Name":"branchHeightOffset","filters":[],"listItems":[],"multiselect":false,"name":"branchHeightOffset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-50","varType":0,},
     {"$GMObjectProperty":"","%Name":"pathSpeed","filters":[],"listItems":[],"multiselect":false,"name":"pathSpeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"8","varType":0,},
+    {"$GMObjectProperty":"","%Name":"maxDipHeight","filters":[],"listItems":[],"multiselect":false,"name":"maxDipHeight","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"350","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bird3",
-    "path":"sprites/spr_bird3/spr_bird3.yy",
+    "name":"spr_birdIdle",
+    "path":"sprites/spr_birdIdle/spr_birdIdle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
