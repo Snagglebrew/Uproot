@@ -1,4 +1,4 @@
-if (obj_birdTrigger.startTrigger && !onCooldown)
+if (trigger.startTrigger && !onCooldown)
 {
 	onCooldown = true;
 	startingX = x;

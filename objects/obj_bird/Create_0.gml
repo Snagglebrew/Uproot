@@ -2,24 +2,20 @@
 // if you continue, you did not see this
 
 branches = []
-for (var i = 0; i < 2; i++)
+var branch1 = collision_line(x, y, x - 1000, y, obj_birdBranch, false, false);
+var branch2 = collision_line(x, y, x + 1000, y, obj_birdBranch, false, false);
+if (branch1.x > branch2.x)
 {
-	var obj = instance_find(obj_birdBranch, i);
-	
-	if (array_length(branches) == 0)
-		branches[0] = obj.id;
-	else
-	{
-		if (branches[0].x > obj.x)
-		{
-			var temp = branches[0];
-			branches[0] = obj.id;
-			branches[1] = temp;
-		}
-		else
-			branches[1] = obj.id;
-	}
+	branches[0] = branch2;
+	branches[1] = branch1;
 }
+else
+{
+	branches[0] = branch1;
+	branches[1] = branch2;
+}
+
+trigger = collision_line(x, y, x, y + 1000, obj_birdTrigger, false, false);
 
 currentBranch = irandom(1);
 
