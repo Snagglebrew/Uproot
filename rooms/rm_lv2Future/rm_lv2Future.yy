@@ -33,6 +33,8 @@
     {"name":"inst_2D5BC061","path":"rooms/rm_lv2Future/rm_lv2Future.yy",},
     {"name":"inst_258FF254","path":"rooms/rm_lv2Future/rm_lv2Future.yy",},
     {"name":"inst_AB7610B","path":"rooms/rm_lv2Future/rm_lv2Future.yy",},
+    {"name":"inst_37545941","path":"rooms/rm_lv2Future/rm_lv2Future.yy",},
+    {"name":"inst_7E0817A3","path":"rooms/rm_lv2Future/rm_lv2Future.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -108,6 +110,8 @@
         {"$GMRInstance":"","%Name":"inst_2D5BC061","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D5BC061","objectId":{"name":"obj_birdBranch","path":"objects/obj_birdBranch/obj_birdBranch.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":544.0,},
         {"$GMRInstance":"","%Name":"inst_258FF254","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_258FF254","objectId":{"name":"obj_birdTrigger","path":"objects/obj_birdTrigger/obj_birdTrigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":640.0,},
         {"$GMRInstance":"","%Name":"inst_AB7610B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_AB7610B","objectId":{"name":"obj_bird","path":"objects/obj_bird/obj_bird.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-0.06,"scaleY":0.06,"x":736.0,"y":239.0,},
+        {"$GMRInstance":"","%Name":"inst_37545941","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37545941","objectId":{"name":"obj_birdBranch","path":"objects/obj_birdBranch/obj_birdBranch.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":288.0,},
+        {"$GMRInstance":"","%Name":"inst_7E0817A3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7E0817A3","objectId":{"name":"obj_birdBranch","path":"objects/obj_birdBranch/obj_birdBranch.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":288.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Ground_BG","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Ground_BG","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":68,"SerialiseWidth":120,"TileCompressedData":[
           -1776,-2147483648,24,105,106,107,108,109,110,111,112,113,114,120,121,122,123,124,125,126,127,128,129,

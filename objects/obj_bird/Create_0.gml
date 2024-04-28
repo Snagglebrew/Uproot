@@ -2,8 +2,10 @@
 // if you continue, you did not see this
 
 branches = []
-var branch1 = collision_line(x, y, x - 1000, y, obj_birdBranch, false, false);
-var branch2 = collision_line(x, y, x + 1000, y, obj_birdBranch, false, false);
+var branch1 = collision_line(x, y-branchHeightOffset, x - 1000, y-branchHeightOffset, obj_birdBranch, false, false);
+var branch2 = collision_line(x, y-branchHeightOffset, x + 1000, y-branchHeightOffset, obj_birdBranch, false, false);
+show_debug_message(branch1);
+show_debug_message(branch2);
 if (branch1.x > branch2.x)
 {
 	branches[0] = branch2;

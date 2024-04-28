@@ -1,4 +1,4 @@
-if (trigger.startTrigger && !onCooldown)
+/**if (trigger.startTrigger && !onCooldown)
 {
 	onCooldown = true;
 	startingX = x;
@@ -84,4 +84,4 @@ if (changeDirectionToPath)
 	}
 }
 else
-	image_angle = 0;
+	image_angle = 0;**/
