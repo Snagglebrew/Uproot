@@ -52,12 +52,12 @@ if !grounded
 	vspd += grav;
 
 // when we jump
-if (_up && grounded) { 
+if (global._up && grounded) { 
 	vspd = -jumpHeight;
 
 }
 // if we wall jump
-if (_up && slidingDownWall)
+if (global._up && slidingDownWall)
 {
 	// move the player up and away from the wall
 	if(wallDir != sign(image_xscale))
