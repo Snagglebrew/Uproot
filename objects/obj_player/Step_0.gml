@@ -47,17 +47,20 @@ else
 	hspd = clamp(hspd, -wallJumpHorizontalSpeed, wallJumpHorizontalSpeed);
 }
 
-// move the player down (gravity)P
-vspd += grav;
+// move the player down (gravity)
+if !grounded
+	vspd += grav;
 
 // when we jump
 if (_up && grounded) { 
-	vspd = -jumpHeight;
+	sprite_index = spr_playerJump;
 }
 // if we wall jump
 if (_up && slidingDownWall)
 {
 	// move the player up and away from the wall
+	if(wallDir != sign(image_xscale))
+		image_xscale *= -1
 	vspd = -jumpHeight;
 	hspd = wallDir * wallJumpHorizontalSpeed;
 	
