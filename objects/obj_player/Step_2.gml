@@ -7,6 +7,10 @@ if (vspd != 0 || sprite_index == spr_playerJump){
 		sprite_index = spr_playerFall
 		image_speed = 1
 	}
+	if vspd < 0{
+		sprite_index = spr_playerJump
+		image_speed = 1
+	}
 } else if(hdir != 0) { 
 	image_speed = 1
 	if(sprite_index != spr_playerWalk)

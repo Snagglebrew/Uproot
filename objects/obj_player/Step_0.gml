@@ -53,7 +53,8 @@ if !grounded
 
 // when we jump
 if (_up && grounded) { 
-	sprite_index = spr_playerJump;
+	vspd = -jumpHeight;
+
 }
 // if we wall jump
 if (_up && slidingDownWall)
