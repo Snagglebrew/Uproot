@@ -8,8 +8,8 @@
   "name":"obj_block",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Parents [DONT PLACE]",
+    "path":"folders/Objects/Tools/Parents [DONT PLACE].yy",
   },
   "parentObjectId":null,
   "persistent":false,

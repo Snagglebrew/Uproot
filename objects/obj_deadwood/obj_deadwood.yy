@@ -6,8 +6,8 @@
   "name":"obj_deadwood",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Trees",
+    "path":"folders/Objects/Trees.yy",
   },
   "parentObjectId":{
     "name":"obj_block",

@@ -6,8 +6,8 @@
   "name":"obj_branch_dark",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Bird",
+    "path":"folders/Objects/Hazards/Bird.yy",
   },
   "parentObjectId":null,
   "persistent":false,

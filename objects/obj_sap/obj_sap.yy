@@ -6,8 +6,8 @@
   "name":"obj_sap",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Trees",
+    "path":"folders/Objects/Trees.yy",
   },
   "parentObjectId":null,
   "persistent":false,

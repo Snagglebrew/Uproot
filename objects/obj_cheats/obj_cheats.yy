@@ -12,8 +12,8 @@
   "name":"obj_cheats",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Tools",
+    "path":"folders/Objects/Tools.yy",
   },
   "parentObjectId":null,
   "persistent":true,

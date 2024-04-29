@@ -9,8 +9,8 @@
   "name":"obj_fire",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Hazards",
+    "path":"folders/Objects/Hazards.yy",
   },
   "parentObjectId":{
     "name":"obj_kill",

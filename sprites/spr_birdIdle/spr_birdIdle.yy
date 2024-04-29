@@ -31,8 +31,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Bird Sprites",
-    "path":"folders/Sprites/Bird Sprites.yy",
+    "name":"Bird",
+    "path":"folders/Sprites/Bird.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
