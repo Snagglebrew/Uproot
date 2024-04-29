@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_createBirdPath",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_createBirdPath",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
