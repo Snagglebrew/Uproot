@@ -22,8 +22,8 @@
     {"name":"inst_7B423F08","path":"rooms/rm_introFuture/rm_introFuture.yy",},
     {"name":"inst_1EED324C","path":"rooms/rm_introFuture/rm_introFuture.yy",},
     {"name":"inst_66E51631","path":"rooms/rm_introFuture/rm_introFuture.yy",},
-    {"name":"inst_5CA3701A","path":"rooms/rm_introFuture/rm_introFuture.yy",},
     {"name":"inst_2F02AA8F","path":"rooms/rm_introFuture/rm_introFuture.yy",},
+    {"name":"inst_5CA3701A","path":"rooms/rm_introFuture/rm_introFuture.yy",},
   ],
   "isDnd":false,
   "layers":[
