@@ -72,7 +72,7 @@
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
     {"id":{"name":"obj_gameover","path":"objects/obj_gameover/obj_gameover.yy",},},
     {"id":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},},
-    {"id":{"name":"Object39","path":"objects/Object39/Object39.yy",},},
+    {"id":{"name":"obj_golem","path":"objects/obj_golem/obj_golem.yy",},},
     {"id":{"name":"obj_golemEnemy","path":"objects/obj_golemEnemy/obj_golemEnemy.yy",},},
     {"id":{"name":"obj_interactDialogue","path":"objects/obj_interactDialogue/obj_interactDialogue.yy",},},
     {"id":{"name":"obj_kill","path":"objects/obj_kill/obj_kill.yy",},},

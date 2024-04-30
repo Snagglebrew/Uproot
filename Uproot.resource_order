@@ -47,7 +47,7 @@
     {"name":"obj_floatPlat","order":3,"path":"objects/obj_floatPlat/obj_floatPlat.yy",},
     {"name":"obj_gameover","order":4,"path":"objects/obj_gameover/obj_gameover.yy",},
     {"name":"obj_goal","order":1,"path":"objects/obj_goal/obj_goal.yy",},
-    {"name":"Object39","order":42,"path":"objects/Object39/Object39.yy",},
+    {"name":"obj_golem","order":42,"path":"objects/obj_golem/obj_golem.yy",},
     {"name":"obj_golemEnemy","order":2,"path":"objects/obj_golemEnemy/obj_golemEnemy.yy",},
     {"name":"obj_interactDialogue","order":7,"path":"objects/obj_interactDialogue/obj_interactDialogue.yy",},
     {"name":"obj_kill","order":5,"path":"objects/obj_kill/obj_kill.yy",},
