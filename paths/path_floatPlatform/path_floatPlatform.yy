@@ -1,7 +1,7 @@
 {
   "$GMPath":"",
   "%Name":"path_floatPlatform",
-  "closed":false,
+  "closed":true,
   "kind":0,
   "name":"path_floatPlatform",
   "parent":{
