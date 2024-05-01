@@ -66,6 +66,10 @@
     {"name":"obj_ui","order":5,"path":"objects/obj_ui/obj_ui.yy",},
     {"name":"obj_vertWall","order":2,"path":"objects/obj_vertWall/obj_vertWall.yy",},
     {"name":"obj_win","order":3,"path":"objects/obj_win/obj_win.yy",},
+<<<<<<< Updated upstream
+=======
+    {"name":"obj_vines","order":3,"path":"objects/obj_vines/obj_vines.yy",},
+>>>>>>> Stashed changes
     {"name":"path_bird","order":2,"path":"paths/path_bird/path_bird.yy",},
     {"name":"path_movingKill","order":1,"path":"paths/path_movingKill/path_movingKill.yy",},
     {"name":"Path4","order":12,"path":"paths/Path4/Path4.yy",},
