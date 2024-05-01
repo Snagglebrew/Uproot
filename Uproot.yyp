@@ -91,6 +91,10 @@
     {"id":{"name":"obj_ui","path":"objects/obj_ui/obj_ui.yy",},},
     {"id":{"name":"obj_vertWall","path":"objects/obj_vertWall/obj_vertWall.yy",},},
     {"id":{"name":"obj_win","path":"objects/obj_win/obj_win.yy",},},
+<<<<<<< Updated upstream
+=======
+    {"id":{"name":"obj_vines","path":"objects/obj_vines/obj_vines.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"ps_rain","path":"particles/ps_rain/ps_rain.yy",},},
     {"id":{"name":"path_bird","path":"paths/path_bird/path_bird.yy",},},
     {"id":{"name":"path_floatPlatform","path":"paths/path_floatPlatform/path_floatPlatform.yy",},},
