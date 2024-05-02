@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 obj_cheats.deathroom = room;
-room_goto(rm_gameover);
+instance_create_layer(x, y, "Instances", obj_fadeTransition, {roomToTransitionTo: rm_gameover, colorOfTransition: c_red, secondsToTransition: 1, hasEasing: true});

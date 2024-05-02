@@ -1,1 +1,2 @@
 startTrigger = false;
+visible = false;

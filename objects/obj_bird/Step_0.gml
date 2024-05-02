@@ -8,6 +8,8 @@ if (trigger.startTrigger && !onCooldown)
 	
 	sprite_index = spr_birdStart;
 	image_index = 0;
+	
+	audio_play_sound(snd_bird, -1, false);
 }
 else if (x == path_get_x(birdPath, 1 - currentBranch))
 {

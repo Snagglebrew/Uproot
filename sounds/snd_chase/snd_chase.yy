@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_chase",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":9.977528,
+  "name":"snd_chase",
+  "parent":{
+    "name":"Golem",
+    "path":"folders/Sounds/Golem.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_chase.wav",
+  "type":0,
+  "volume":1.0,
+}

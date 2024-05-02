@@ -19,17 +19,17 @@ if (layer_exists("Rain"))
 }
 
 //Time travel
-if(keyboard_check_pressed(ord("Z")) && future && !place_meeting(x,y,obj_teleblock) && canTimeTravel){
+if(keyboard_check_pressed(ord("Z")) && future && !place_meeting(x,y,obj_teleblock) && canTimeTravel && !instance_exists(obj_fadeTransition)){
 	var _rm = room_get_name(room)
 	_rm = string_delete(_rm, (string_length(_rm) - 5), 6)
 	_rm = asset_get_index(_rm)
-	instance_create_layer(x, y, "Instances", obj_fadeTransition, {roomToTransitionTo: _rm, colorOfTransition: c_white, hasEasing: true});
+	instance_create_layer(x, y, "Instances", obj_fadeTransition, {roomToTransitionTo: _rm, colorOfTransition: c_white, hasEasing: true, secondsToTransition: 0.1});
 }
-if(keyboard_check_pressed(ord("Z")) && !future && !place_meeting(x,y,obj_teleblock) && canTimeTravel){
+if(keyboard_check_pressed(ord("Z")) && !future && !place_meeting(x,y,obj_teleblock) && canTimeTravel && !instance_exists(obj_fadeTransition)){
 	var _rm = room_get_name(room)
 	_rm = _rm + "Future"
 	_rm = asset_get_index(_rm)
-		instance_create_layer(x, y, "Instances", obj_fadeTransition, {roomToTransitionTo: _rm, colorOfTransition: c_white, hasEasing: true});
+		instance_create_layer(x, y, "Instances", obj_fadeTransition, {roomToTransitionTo: _rm, colorOfTransition: c_white, hasEasing: true, secondsToTransition: 0.1});
 }
 
 // if we are grounded, we arent jumping off a wall (duh)
@@ -107,3 +107,8 @@ if(keyboard_check_pressed(ord("X")) && emptyHands && (place_meeting(x,y,obj_pick
 if(keyboard_check_pressed(ord("X")) && place_meeting(x,y,obj_goal)){
 	obj_exit.goal = true;
 }
+
+if (hdir != 0 && !audio_is_playing(snd_walk) && grounded)
+	audio_play_sound(snd_walk, 1, true);
+else if (hdir == 0 || !grounded)
+	audio_stop_sound(snd_walk);

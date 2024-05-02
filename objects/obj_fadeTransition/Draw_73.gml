@@ -1,7 +1,12 @@
 var newAlpha = frameCount / (secondsToTransition * global.gameFPS);
 
 if (hasEasing)
+{
+	if (newAlpha > 1 && newAlpha < 2)
+		newAlpha = 2 - newAlpha;
+		
 	newAlpha = power(newAlpha, 3);
+}
 
 // fading in
 if (newAlpha < 1)

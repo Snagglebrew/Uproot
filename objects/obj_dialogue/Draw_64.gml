@@ -24,8 +24,7 @@ if (talking)
 	// draw the current text for the dialogue
 	var initialFont = draw_get_font();
 
-	// TODO: dialogue font
-	//draw_set_font(example font);
+	draw_set_font(fnt_dialogue);
 
 	// set the initialX to the point of the text
 	initialX += portraitOffsetX + spriteWidth;

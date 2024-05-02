@@ -15,7 +15,7 @@ if(immune){
 }
 
 // if there is an item that can be picked up, draw the pick up text
-if (place_meeting(x, y, obj_pickup) && emptyHands)
+if ((place_meeting(x, y, obj_pickup) && emptyHands) || place_meeting(x, y, obj_goal))
 {
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
