@@ -16,6 +16,7 @@
     {"name":"inst_723CECF4","path":"rooms/rm_intro/rm_intro.yy",},
     {"name":"inst_463FE6A7","path":"rooms/rm_intro/rm_intro.yy",},
     {"name":"inst_4E6E604C","path":"rooms/rm_intro/rm_intro.yy",},
+    {"name":"inst_214F13D5","path":"rooms/rm_intro/rm_intro.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -60,6 +61,7 @@
         {"$GMRInstance":"","%Name":"inst_4E6E604C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4E6E604C","objectId":{"name":"obj_interactDialogue","path":"objects/obj_interactDialogue/obj_interactDialogue.yy",},"properties":[
             {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_interactDialogue","path":"objects/obj_interactDialogue/obj_interactDialogue.yy",},"propertyId":{"name":"dialogueKey","path":"objects/obj_interactDialogue/obj_interactDialogue.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"introPast",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":1.5,"x":832.0,"y":896.0,},
+        {"$GMRInstance":"","%Name":"inst_214F13D5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_214F13D5","objectId":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5,"scaleY":17.0,"x":-96.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Trees","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_4395051A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4395051A","objectId":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.7,"scaleY":0.7,"x":128.0,"y":512.0,},
