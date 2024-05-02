@@ -13,8 +13,8 @@
     "path":"folders/Objects/Platforms.yy",
   },
   "parentObjectId":{
-    "name":"obj_floor",
-    "path":"objects/obj_floor/obj_floor.yy",
+    "name":"obj_platform",
+    "path":"objects/obj_platform/obj_platform.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,8 +32,8 @@
   "properties":[
     {"$GMObjectProperty":"","%Name":"path","filters":[
         "GMPath",
-      ],"listItems":[],"multiselect":false,"name":"path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"path_floatPlatform","varType":5,},
-    {"$GMObjectProperty":"","%Name":"pathSpeed","filters":[],"listItems":[],"multiselect":false,"name":"pathSpeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
+      ],"listItems":[],"multiselect":false,"name":"path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
+    {"$GMObjectProperty":"","%Name":"pathSpeed","filters":[],"listItems":[],"multiselect":false,"name":"pathSpeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
