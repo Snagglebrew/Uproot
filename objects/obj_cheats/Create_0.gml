@@ -4,3 +4,4 @@ deathroom = undefined;
 SpawnX = 0
 SpawnY = 0
 swapRoom = false;
+firstClear = true;

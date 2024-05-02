@@ -18,23 +18,11 @@ function restartRoom()
 		y = obj_cheats.SpawnY;
 	}
 	
-	with (obj_crumblePlat)
-	{
-		instance_activate_object(self);
+	with(obj_crumblePlat){
+		instance_activate_object(self)
 	}
+
 	
-	if string_ends_with(room_get_name(obj_cheats.deathroom),"Future") {
-		var _rm = room_get_name(obj_cheats.deathroom);
-		_rm = string_delete(_rm, (string_length(_rm) - 5), 6);
-		_rm = asset_get_index(_rm);
-		room_goto(_rm)
-	} else if(!string_ends_with(room_get_name(obj_cheats.deathroom), "Future")) {
-		var _rm = room_get_name(obj_cheats.deathroom);
-		_rm = _rm + "Future"
-		_rm = asset_get_index(_rm);
-		if room_exists(_rm)
-			room_goto(_rm)
-	}
 	obj_player.x = obj_cheats.SpawnX
 	obj_player.y = obj_cheats.SpawnY
 	obj_cheats.swapRoom = true;

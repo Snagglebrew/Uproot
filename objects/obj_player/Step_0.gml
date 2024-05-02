@@ -1,4 +1,4 @@
-scr_movement();
+
 
 // if there is rain, make sure we arent in it so we can time travel
 var canTimeTravel = true;
