@@ -96,7 +96,6 @@
     {"id":{"name":"path_bird","path":"paths/path_bird/path_bird.yy",},},
     {"id":{"name":"path_floatPlatform","path":"paths/path_floatPlatform/path_floatPlatform.yy",},},
     {"id":{"name":"path_movingKill","path":"paths/path_movingKill/path_movingKill.yy",},},
-    {"id":{"name":"Path4","path":"paths/Path4/Path4.yy",},},
     {"id":{"name":"devRoom","path":"rooms/devRoom/devRoom.yy",},},
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"id":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
