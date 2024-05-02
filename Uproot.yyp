@@ -70,7 +70,6 @@
     {"id":{"name":"obj_dialogue","path":"objects/obj_dialogue/obj_dialogue.yy",},},
     {"id":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},},
     {"id":{"name":"obj_fire","path":"objects/obj_fire/obj_fire.yy",},},
-    {"id":{"name":"obj_floatCrumble","path":"objects/obj_floatCrumble/obj_floatCrumble.yy",},},
     {"id":{"name":"obj_floatPlat","path":"objects/obj_floatPlat/obj_floatPlat.yy",},},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
     {"id":{"name":"obj_gameover","path":"objects/obj_gameover/obj_gameover.yy",},},
