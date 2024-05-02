@@ -8,14 +8,16 @@
   ],
   "managed":true,
   "name":"obj_crumblePlat",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_floatPlat","path":"objects/obj_floatPlat/obj_floatPlat.yy",},"propertyId":{"name":"path","path":"objects/obj_floatPlat/obj_floatPlat.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"noone",},
+  ],
   "parent":{
     "name":"Platforms",
     "path":"folders/Objects/Platforms.yy",
   },
   "parentObjectId":{
-    "name":"obj_floor",
-    "path":"objects/obj_floor/obj_floor.yy",
+    "name":"obj_floatPlat",
+    "path":"objects/obj_floatPlat/obj_floatPlat.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
