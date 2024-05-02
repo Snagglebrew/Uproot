@@ -14,7 +14,6 @@
     {"name":"inst_4C40A47C","path":"rooms/devRoom/devRoom.yy",},
     {"name":"inst_5F5A8DBD","path":"rooms/devRoom/devRoom.yy",},
     {"name":"inst_675B8B5D","path":"rooms/devRoom/devRoom.yy",},
-    {"name":"inst_FB07B8C","path":"rooms/devRoom/devRoom.yy",},
     {"name":"inst_3FA69D66","path":"rooms/devRoom/devRoom.yy",},
     {"name":"inst_2067AEC7","path":"rooms/devRoom/devRoom.yy",},
     {"name":"inst_70ECC7AD","path":"rooms/devRoom/devRoom.yy",},
@@ -27,7 +26,6 @@
     {"$GMRInstanceLayer":"","%Name":"Pickups","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_4C40A47C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4C40A47C","objectId":{"name":"obj_pickup","path":"objects/obj_pickup/obj_pickup.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":928.0,},
         {"$GMRInstance":"","%Name":"inst_675B8B5D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_675B8B5D","objectId":{"name":"obj_stick","path":"objects/obj_stick/obj_stick.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.1,"scaleY":0.1,"x":672.0,"y":992.0,},
-        {"$GMRInstance":"","%Name":"inst_FB07B8C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_FB07B8C","objectId":{"name":"obj_sap","path":"objects/obj_sap/obj_sap.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1632.0,"y":896.0,},
         {"$GMRInstance":"","%Name":"inst_3FA69D66","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3FA69D66","objectId":{"name":"obj_fire","path":"objects/obj_fire/obj_fire.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.3,"scaleY":0.3,"x":320.0,"y":992.0,},
       ],"layers":[],"name":"Pickups","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Teleblock","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

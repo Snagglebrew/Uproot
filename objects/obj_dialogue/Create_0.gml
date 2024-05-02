@@ -111,6 +111,26 @@ var lv2Bird = [
 		talker: "diana"
 	}
 ];
+var lv3Past = [
+	{
+		text: "Oh no, this column fell out of the sky and is blocking my path",
+		talker: "diana"
+	},
+	{
+		text: "Looks like I'll have to go about it in the future from here.",
+		talker: "diana"
+	}
+];
+var lv3Future = [
+	{
+		text: "Is this...acid rain?",
+		talker: "diana"
+	},
+	{
+		text: "Oh no! I can't seem to swap times while in this rain! I'll have to keep that in mind.",
+		talker: "diana"
+	}
+];
 
 // create the dialogue options map
 dialogueOptions = ds_map_create();
@@ -121,6 +141,8 @@ ds_map_set(dialogueOptions, "deadWood", deadWood);
 ds_map_set(dialogueOptions, "introFuture", introFuture);
 ds_map_set(dialogueOptions, "introPast", introPast);
 ds_map_set(dialogueOptions, "lv2Bird", lv2Bird);
+ds_map_set(dialogueOptions, "lv3Past", lv3Past);
+ds_map_set(dialogueOptions, "lv3Future", lv3Future);
 
 // all dialogue variables
 currentDialogue = [];
