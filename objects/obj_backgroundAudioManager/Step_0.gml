@@ -1,4 +1,4 @@
-if (layer_exists("Rain") && !audio_is_playing(snd_rain))
+if (layer_exists("Rain") && layer_get_visible("Rain") && !audio_is_playing(snd_rain))
 {
 	audio_play_sound(snd_rain, 0, true);
 }

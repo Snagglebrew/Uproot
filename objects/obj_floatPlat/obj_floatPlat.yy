@@ -34,6 +34,9 @@
         "GMPath",
       ],"listItems":[],"multiselect":false,"name":"path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
     {"$GMObjectProperty":"","%Name":"pathSpeed","filters":[],"listItems":[],"multiselect":false,"name":"pathSpeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varType":0,},
+    {"$GMObjectProperty":"","%Name":"blockRainObject","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"blockRainObject","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

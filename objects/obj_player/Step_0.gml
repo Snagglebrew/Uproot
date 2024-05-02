@@ -2,7 +2,7 @@
 
 // if there is rain, make sure we arent in it so we can time travel
 var canTimeTravel = true;
-if (layer_exists("Rain"))
+if (layer_exists("Rain") && layer_get_visible("Rain"))
 {
 	canTimeTravel = false;
 	
@@ -106,6 +106,11 @@ if(keyboard_check_pressed(ord("X")) && emptyHands && (place_meeting(x,y,obj_pick
 }
 if(keyboard_check_pressed(ord("X")) && place_meeting(x,y,obj_goal)){
 	obj_exit.goal = true;
+	
+	if (room == rm_lv3)
+	{
+		layer_set_visible("Rain", true);
+	}
 }
 
 if (hdir != 0 && !audio_is_playing(snd_walk) && grounded)
