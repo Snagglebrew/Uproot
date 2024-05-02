@@ -1,21 +1,23 @@
 {
   "$GMObject":"",
-  "%Name":"obj_crumblingPlatform",
+  "%Name":"obj_crumblePlat",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_crumblingPlatform",
-  "overriddenProperties":[],
+  "name":"obj_crumblePlat",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_floatPlat","path":"objects/obj_floatPlat/obj_floatPlat.yy",},"propertyId":{"name":"path","path":"objects/obj_floatPlat/obj_floatPlat.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"noone",},
+  ],
   "parent":{
     "name":"Platforms",
     "path":"folders/Objects/Platforms.yy",
   },
   "parentObjectId":{
-    "name":"obj_floor",
-    "path":"objects/obj_floor/obj_floor.yy",
+    "name":"obj_floatPlat",
+    "path":"objects/obj_floatPlat/obj_floatPlat.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
