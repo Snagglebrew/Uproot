@@ -23,6 +23,7 @@
     {"name":"inst_66E51631","path":"rooms/rm_introFuture/rm_introFuture.yy",},
     {"name":"inst_2F02AA8F","path":"rooms/rm_introFuture/rm_introFuture.yy",},
     {"name":"inst_5CA3701A","path":"rooms/rm_introFuture/rm_introFuture.yy",},
+    {"name":"inst_B21754E","path":"rooms/rm_introFuture/rm_introFuture.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -73,6 +74,7 @@
         {"$GMRInstance":"","%Name":"inst_2F02AA8F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F02AA8F","objectId":{"name":"obj_interactDialogue","path":"objects/obj_interactDialogue/obj_interactDialogue.yy",},"properties":[
             {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_interactDialogue","path":"objects/obj_interactDialogue/obj_interactDialogue.yy",},"propertyId":{"name":"dialogueKey","path":"objects/obj_interactDialogue/obj_interactDialogue.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"introFuture",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":1.5,"x":832.0,"y":896.0,},
+        {"$GMRInstance":"","%Name":"inst_B21754E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_B21754E","objectId":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5,"scaleY":17.0,"x":-96.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Trees","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_4480DC33","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4480DC33","objectId":{"name":"obj_deadTree","path":"objects/obj_deadTree/obj_deadTree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.4,"scaleY":0.4,"x":1472.0,"y":416.0,},
