@@ -23,13 +23,13 @@ if(keyboard_check_pressed(ord("Z")) && future && !place_meeting(x,y,obj_telebloc
 	var _rm = room_get_name(room)
 	_rm = string_delete(_rm, (string_length(_rm) - 5), 6)
 	_rm = asset_get_index(_rm)
-	room_goto(_rm)
+	instance_create_layer(x, y, "Instances", obj_fadeTransition, {roomToTransitionTo: _rm, colorOfTransition: c_white, hasEasing: true});
 }
 if(keyboard_check_pressed(ord("Z")) && !future && !place_meeting(x,y,obj_teleblock) && canTimeTravel){
 	var _rm = room_get_name(room)
 	_rm = _rm + "Future"
 	_rm = asset_get_index(_rm)
-	room_goto(_rm)
+		instance_create_layer(x, y, "Instances", obj_fadeTransition, {roomToTransitionTo: _rm, colorOfTransition: c_white, hasEasing: true});
 }
 
 // if we are grounded, we arent jumping off a wall (duh)

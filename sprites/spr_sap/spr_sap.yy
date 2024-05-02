@@ -3,8 +3,8 @@
   "%Name":"spr_sap",
   "bboxMode":0,
   "bbox_bottom":1528,
-  "bbox_left":42,
-  "bbox_right":1282,
+  "bbox_left":0,
+  "bbox_right":1240,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1656,
+  "width":1241,
 }

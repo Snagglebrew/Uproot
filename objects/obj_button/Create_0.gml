@@ -1,0 +1,1 @@
+obj_dialogue.canClickButtons = true;

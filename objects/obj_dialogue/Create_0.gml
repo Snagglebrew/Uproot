@@ -1,5 +1,6 @@
-// since there is only one of this option, i just set the global for game fps here
+// since there is only one of this option, i just set the globals here
 global.gameFPS = game_get_speed(gamespeed_fps);
+canClickButtons = true;
 
 // getting the viewport width
 viewportWidth = view_wport[0];
