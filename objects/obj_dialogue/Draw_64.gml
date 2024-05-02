@@ -14,6 +14,8 @@ if (talking)
 	// draw the portrait
 	if (currentDialogue[currentDialogueIndex].talker == "diana")
 		draw_sprite(spr_portraitDownscaled, -1, initialX, initialY);
+	else if (currentDialogue[currentDialogueIndex].talker == "bird")
+		draw_sprite(spr_birdPortrait, -1, initialX, initialY);
 	else
 		draw_sprite(spr_statuePortrait, -1, initialX, initialY);
 

@@ -73,6 +73,44 @@ var introPast = [
 		talker: "gaia"
 	}
 ];
+var lv2Bird = [
+	{
+		text: "(Oh my. It seems I have entered the territory of the shadow birds.)",
+		talker: "diana"
+	},
+	{
+		text: "(Mother always told me to stay away from them but maybe they can help?)",
+		talker: "diana"
+	},
+	{
+		text: "Um...Hello Mr Bird! I was wondering if you have seen a rather large stone around here?",
+		talker: "diana"
+	},
+	{
+		text: "...",
+		talker: "bird"
+	},
+		{
+		text: "SQUACK!",
+		talker: "bird"
+	},
+	{
+		text: "Large? Stone? Yes! Bird has seen. Stone. Up high! High yes!",
+		talker: "bird"
+	},
+	{
+		text: "But! But! Stone belong to birds! Not to you! To us! So! Go away!",
+		talker: "bird"
+	},
+	{
+		text: "SQUACK!",
+		talker: "bird"
+	},
+	{
+		text: "(Doesn't seem like he'll be much help...I'll have to sneak past the birds and climb my way up.)",
+		talker: "diana"
+	}
+];
 
 // create the dialogue options map
 dialogueOptions = ds_map_create();
@@ -82,6 +120,7 @@ ds_map_set(dialogueOptions, "testDialogue", testDialogue);
 ds_map_set(dialogueOptions, "deadWood", deadWood);
 ds_map_set(dialogueOptions, "introFuture", introFuture);
 ds_map_set(dialogueOptions, "introPast", introPast);
+ds_map_set(dialogueOptions, "lv2Bird", lv2Bird);
 
 // all dialogue variables
 currentDialogue = [];

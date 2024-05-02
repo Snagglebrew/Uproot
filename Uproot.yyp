@@ -51,6 +51,7 @@
   "name":"Uproot",
   "resources":[
     {"id":{"name":"obj_baseEnemy","path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},},
+    {"id":{"name":"obj_bird_NPC","path":"objects/obj_bird_NPC/obj_bird_NPC.yy",},},
     {"id":{"name":"obj_bird","path":"objects/obj_bird/obj_bird.yy",},},
     {"id":{"name":"obj_birdBranch","path":"objects/obj_birdBranch/obj_birdBranch.yy",},},
     {"id":{"name":"obj_birdTrigger","path":"objects/obj_birdTrigger/obj_birdTrigger.yy",},},
@@ -90,6 +91,7 @@
     {"id":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},},
     {"id":{"name":"obj_ui","path":"objects/obj_ui/obj_ui.yy",},},
     {"id":{"name":"obj_vertWall","path":"objects/obj_vertWall/obj_vertWall.yy",},},
+    {"id":{"name":"obj_vines","path":"objects/obj_vines/obj_vines.yy",},},
     {"id":{"name":"obj_win","path":"objects/obj_win/obj_win.yy",},},
     {"id":{"name":"ps_rain","path":"particles/ps_rain/ps_rain.yy",},},
     {"id":{"name":"path_bird","path":"paths/path_bird/path_bird.yy",},},
@@ -174,6 +176,7 @@
     {"id":{"name":"spr_waterTop","path":"sprites/spr_waterTop/spr_waterTop.yy",},},
     {"id":{"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},},
     {"id":{"name":"Sprite56","path":"sprites/Sprite56/Sprite56.yy",},},
+    {"id":{"name":"spr_birdPortrait","path":"sprites/spr_birdPortrait/spr_birdPortrait.yy",},},
     {"id":{"name":"tls_past","path":"tilesets/tls_past/tls_past.yy",},},
     {"id":{"name":"tls_present","path":"tilesets/tls_present/tls_present.yy",},},
     {"id":{"name":"tls_water","path":"tilesets/tls_water/tls_water.yy",},},

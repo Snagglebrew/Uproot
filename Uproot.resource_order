@@ -33,6 +33,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_baseEnemy","order":1,"path":"objects/obj_baseEnemy/obj_baseEnemy.yy",},
+    {"name":"obj_bird_NPC","order":5,"path":"objects/obj_bird_NPC/obj_bird_NPC.yy",},
     {"name":"obj_bird","order":2,"path":"objects/obj_bird/obj_bird.yy",},
     {"name":"obj_birdTrigger","order":1,"path":"objects/obj_birdTrigger/obj_birdTrigger.yy",},
     {"name":"obj_branch_dark","order":4,"path":"objects/obj_branch_dark/obj_branch_dark.yy",},
@@ -65,6 +66,7 @@
     {"name":"obj_tree","order":3,"path":"objects/obj_tree/obj_tree.yy",},
     {"name":"obj_ui","order":5,"path":"objects/obj_ui/obj_ui.yy",},
     {"name":"obj_vertWall","order":2,"path":"objects/obj_vertWall/obj_vertWall.yy",},
+    {"name":"obj_vines","order":3,"path":"objects/obj_vines/obj_vines.yy",},
     {"name":"obj_win","order":3,"path":"objects/obj_win/obj_win.yy",},
     {"name":"path_bird","order":2,"path":"paths/path_bird/path_bird.yy",},
     {"name":"path_movingKill","order":1,"path":"paths/path_movingKill/path_movingKill.yy",},
@@ -136,6 +138,7 @@
     {"name":"spr_waterTop","order":2,"path":"sprites/spr_waterTop/spr_waterTop.yy",},
     {"name":"spr_win","order":9,"path":"sprites/spr_win/spr_win.yy",},
     {"name":"Sprite56","order":4,"path":"sprites/Sprite56/Sprite56.yy",},
+    {"name":"spr_birdPortrait","order":10,"path":"sprites/spr_birdPortrait/spr_birdPortrait.yy",},
     {"name":"tls_past","order":1,"path":"tilesets/tls_past/tls_past.yy",},
     {"name":"tls_water","order":2,"path":"tilesets/tls_water/tls_water.yy",},
     {"name":"tls_waterTop","order":3,"path":"tilesets/tls_waterTop/tls_waterTop.yy",},
