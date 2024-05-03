@@ -18,4 +18,5 @@ function restartRoom()
 	obj_player.x = obj_cheats.SpawnX
 	obj_player.y = obj_cheats.SpawnY
 	obj_cheats.swapRoom = true;
+	obj_cheats.doublereset = true;
 }
