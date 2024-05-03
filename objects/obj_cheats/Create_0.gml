@@ -6,3 +6,5 @@ SpawnY = 0
 swapRoom = false;
 firstClear = true;
 reset = false;
+
+levelArray = [];
