@@ -12,6 +12,7 @@ function restartRoom()
 		instance_create_layer(x,y,"Instances",obj_player);
 	} else {
 		obj_player.pickup = noone;
+		obj_player.emptyHands = true;
 	}
 	
 	obj_player.x = obj_cheats.SpawnX
