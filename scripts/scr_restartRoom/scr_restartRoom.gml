@@ -13,15 +13,6 @@ function restartRoom()
 	} else {
 		obj_player.pickup = noone;
 	}
-	with obj_pickup{
-		x = obj_cheats.SpawnX;
-		y = obj_cheats.SpawnY;
-	}
-	
-	with(obj_crumblePlat){
-		instance_activate_object(self)
-	}
-
 	
 	obj_player.x = obj_cheats.SpawnX
 	obj_player.y = obj_cheats.SpawnY

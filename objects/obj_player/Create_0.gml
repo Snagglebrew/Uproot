@@ -5,6 +5,7 @@ camera = camera_create_view(x,y,960,540,0,obj_player,-1,-1,400,400);
 view_set_camera(0, camera);
 
 hp = maxhp;
+hdir = 0
 vspd = 0;
 immune = false;
 emptyHands = true;
