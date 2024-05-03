@@ -1,6 +1,7 @@
 switch (room)
 {
 	case rm_gameover:
+		chase = false;
 		audio_stop_all();
 		audio_play_sound(snd_rain, 1, true);
 		

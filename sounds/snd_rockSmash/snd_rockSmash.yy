@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":4.044195,
+  "duration":3.726349,
   "name":"snd_rockSmash",
   "parent":{
     "name":"Golem",

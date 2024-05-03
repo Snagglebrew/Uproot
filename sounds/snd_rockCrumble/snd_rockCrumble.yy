@@ -12,8 +12,8 @@
   "duration":4.04898,
   "name":"snd_rockCrumble",
   "parent":{
-    "name":"Golem",
-    "path":"folders/Sounds/Golem.yy",
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
