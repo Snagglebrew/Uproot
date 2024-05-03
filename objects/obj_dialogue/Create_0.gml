@@ -133,6 +133,17 @@ var lv3Future = [
 	}
 ];
 
+var ending = [
+	{
+		text: "I have brought the stones, Mother Gaia.",
+		talker: "diana"
+	},
+	{
+		text: "My sincerest gratitude, Diana. This forest is saved due to your efforts. I could not thank you enough.",
+		talker: "gaia"
+	}
+];
+
 // create the dialogue options map
 dialogueOptions = ds_map_create();
 
@@ -144,6 +155,7 @@ ds_map_set(dialogueOptions, "introPast", introPast);
 ds_map_set(dialogueOptions, "lv2Bird", lv2Bird);
 ds_map_set(dialogueOptions, "lv3Past", lv3Past);
 ds_map_set(dialogueOptions, "lv3Future", lv3Future);
+ds_map_set(dialogueOptions, "ending", ending);
 
 // all dialogue variables
 currentDialogue = [];

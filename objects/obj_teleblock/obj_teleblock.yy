@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_teleblock",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_teleblock",
   "overriddenProperties":[],
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_invisBlock",
-    "path":"sprites/spr_invisBlock/spr_invisBlock.yy",
+    "name":"spr_blockRain",
+    "path":"sprites/spr_blockRain/spr_blockRain.yy",
   },
   "spriteMaskId":null,
   "visible":false,

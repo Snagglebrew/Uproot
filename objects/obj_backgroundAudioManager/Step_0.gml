@@ -9,6 +9,8 @@ else if (!layer_exists("Rain") && audio_is_playing(snd_rain))
 
 if (!audio_is_playing(snd_backgroundMusicStart) && !audio_is_playing(snd_backgroundMusicLoop) && room != rm_gameover && !chase)
 {
+	audio_stop_sound(snd_chase);
+	
 	audio_play_sound(snd_backgroundMusicLoop, -1, true);
 }
 else if (!audio_is_playing(snd_chase) && chase)
